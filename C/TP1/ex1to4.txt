@@ -1,0 +1,49 @@
+Exercice 1:
+
+1/ 
+Le code A stocke dans une variable le résultat de la division des valeurs stockées dans deux autres variables, puis affiche le message : "La valeur de c est : [quotient]".
+Le code B affiche le contenu d'une variable a.
+Le code C stocke le produit de deux valeurs dans une variable c.
+Le code D affiche le contenu d'une variable a.
+
+ps : en tout cas, c'est ce que je devine être leur but. Ces codes ne fonctionnent pas.
+
+
+2/ 
+Code A : Le code présente une erreur car on tente d'effectuer une division par 0.
+Code B : L'erreur provient de l'erreur de frappe dans 'main'.
+Code C : Ici, l'assignation de variable est incorrecte.
+Code D : On a remplacé le ; par un : à la fin de la 4e ligne.
+
+
+3/ 
+Code A : Choisir une autre valeur pour b.
+Code B : corriger l'orthographe de 'main'.
+Code C : corriger la 6e ligne : c = a * b;
+Code D : remplacer le : à la fin de la 4e ligne par un ;
+
+
+Exercice 2 :
+Ce programme renvoie 2. Certes le résultat de la division de 5 par 2 est en vérité 2,5 mais ce quotient étant stocké dans une variable de type int, il est arrondi automatiquement. Pour afficher le résultat de type flottant (et donc éviter l'arrondi), il faut déclarer c comme étant de type float :
+float c = a / b;
+et modifier la syntaxe de printf.
+
+
+Exercice 3 :
+
+1 #include <stdio.h> importe la librairie stdio qui ajoute printf et scanf
+2 int main(void) initialise la fonction main
+3 {
+4 	int a = 5; déclare et définit a
+5 	int b = 2; même chose pour b
+6 	int c = ( a / b ) ; définit une variable c le quotient de a sur b
+7
+9 	scanf ( " % d % d " , &d , & e ) ; demande à l'user de définir la valeur de c et e
+10 	int s = a + d + e ;définit s telle que s la somme de a d et e
+11 	int m = s - a ; définit m telle que m la différence de s et a
+12 	printf ( " % d " , m ) ; affiche la valeur de m
+13 	return 0; termine l'exécution du programme
+14 }
+
+pour se débarasser des erreurs il faut initialiser et définir une variable e.
+certaines lignes peuvent être supprimer car elles définissent des variables non utilisées.

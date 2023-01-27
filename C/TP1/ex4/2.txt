@@ -1,0 +1,3 @@
+pour cela, il faut utiliser l'option -o lors de la compilation, comme ceci :
+
+gcc -o firstProgram NOM.c
