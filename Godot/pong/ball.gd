@@ -8,8 +8,8 @@ var points2 : int
 
 func _ready():
 	randomize()
-	speed = Vector2(300,300)
-	velocity = Vector2(rand_range(-6,6),rand_range(-6,6))
+	speed = Vector2(325,325)
+	velocity = Vector2(rand_range(-6,6),rand_range(-6,6)) * speed
 	points1 = 0
 	points2 = 0
 
