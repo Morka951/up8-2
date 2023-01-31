@@ -18,6 +18,10 @@ config/name="pong"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/BitmapFontCutterPlus/plugin.cfg" )
+
 [input]
 
 up_2={
