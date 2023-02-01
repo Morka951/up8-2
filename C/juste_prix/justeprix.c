@@ -27,7 +27,6 @@ void	game(void)
 
 	win = 0;
 	n = rand() % 1000 + 1;
-	printf("%d\n",n);
 	guess = 1001;
 
 	while (win == 0)
